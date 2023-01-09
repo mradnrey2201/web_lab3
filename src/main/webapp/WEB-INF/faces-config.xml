@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
+              version="2.0">
+<!--    <navigation-rule>-->
+<!--        <from-view-id>start.xhtml</from-view-id>-->
+<!--        <navigation-case>-->
+<!--            <from-outcome>toMain</from-outcome>-->
+<!--            <to-view-id>/index.xhtml</to-view-id>-->
+<!--            <redirect/>-->
+<!--        </navigation-case>-->
+<!--    </navigation-rule>-->
+
+<!--    <navigation-rule>-->
+<!--        <from-view-id>/index.xhtml</from-view-id>-->
+
+<!--        <navigation-case>-->
+<!--            <from-outcome>toStart</from-outcome>-->
+<!--            <to-view-id>/start.jsp</to-view-id>-->
+<!--            <redirect/>-->
+<!--        </navigation-case>-->
+<!--    </navigation-rule>-->
+<!--    <managed-bean>-->
+<!--        <managed-bean-name>testBean</managed-bean-name>-->
+<!--        <managed-bean-class>com.example.lab3.controllers.TestBean</managed-bean-class>-->
+<!--        <managed-bean-scope>application</managed-bean-scope>-->
+<!--    </managed-bean>-->
+    <validator>
+        <validator-id>xYValidator</validator-id>
+        <validator-class>com.example.lab3.validators.XYValidator</validator-class>
+    </validator>
+</faces-config>
